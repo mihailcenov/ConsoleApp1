@@ -80,3 +80,20 @@ switch (x) {
         break;
 }
 
+
+int n = int.Parse(Console.ReadLine());
+for (int row = 1; row <=n; row++)
+{
+    for (int col = 1; col <= row; col++)
+    {
+        Console.Write(col + " ");
+    }
+    Console.WriteLine();
+    
+}
+
+//int i;
+for (i = 1; i <= 25; i++)
+{
+    Console.WriteLine("{0}", i);
+}
