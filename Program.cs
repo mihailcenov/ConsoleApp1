@@ -97,3 +97,18 @@ for (i = 1; i <= 25; i++)
 {
     Console.WriteLine("{0}", i);
 }
+
+Console.Write("a = ");
+var a =int.Parse(Console.ReadLine());
+var area = a * a;
+Console.Write(" Square area = ");
+Console.WriteLine(area);
+
+Console.Write(" inches = ");
+var inches = double.Parse (Console.ReadLine());
+var centimeters = inches * 2.54;
+Console.Write("centimeters = ");
+Console.WriteLine(centimeters);
+
+var name = Console.ReadLine();
+Console.Write("Hello, {0}!", name);
